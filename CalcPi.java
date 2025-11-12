@@ -15,7 +15,7 @@ public class CalcPi {
 		piApproximation *= 4;
 
 		String realPiLabel = "pi according to Java:";
-		String approxPiLabel = "pi, approximated";
+		String approxPiLabel = "pi, approximated:";
 
 		int padding = realPiLabel.length() - approxPiLabel.length();
 		String spaces = " ".repeat(Math.max(0, padding));
